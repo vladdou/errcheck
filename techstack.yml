@@ -1,0 +1,45 @@
+repo_name: vladdou/errcheck
+report_id: 760f277bf4d45b87dc2d0f11ca9e7ac0
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-26T05:32:37+00:00'
+requested_by: kisielk
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/vladdou/errcheck
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/vladdou/errcheck
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/vladdou/errcheck/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Kamil Kisiel
+  last_updated_on: 2013-12-14 07:51:08.000000000 Z
